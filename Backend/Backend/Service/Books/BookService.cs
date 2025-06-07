@@ -1,4 +1,5 @@
-﻿using Backend.Model;
+﻿using Backend.DTO;
+using Backend.Model;
 using Backend.Repository.Books;
 using Backend.Service.Books;
 using System.Collections.Generic;
@@ -53,6 +54,11 @@ namespace Backend.Service.Books
         public async Task<List<Book>> GetTop4BookNew()
         {
             return await _bookRepository.GetTop4BookNew();
+        }
+
+        public async Task<List<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8)
+        {
+           return await _bookRepository.GetBookByPages(categoryId, query, page, pageSize);
         }
     }
 }

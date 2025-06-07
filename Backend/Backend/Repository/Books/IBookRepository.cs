@@ -1,4 +1,5 @@
-﻿using Backend.Model;
+﻿using Backend.DTO;
+using Backend.Model;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -7,6 +8,8 @@ namespace Backend.Repository.Books
     public interface IBookRepository
     {
         Task<List<Book>> GetAllBook();
+
+        Task<List<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8);
         Task<Book> GetBookById(int bookId);
         Task<List<Book>> GetBookByCategory(int categoryId);
 

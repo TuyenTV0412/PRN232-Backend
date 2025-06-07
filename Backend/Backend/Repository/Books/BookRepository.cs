@@ -1,4 +1,5 @@
-﻿using Backend.Model;
+﻿using Backend.DTO;
+using Backend.Model;
 using Backend.Repository.Books;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -76,5 +77,43 @@ namespace Backend.Repository.Books
                                                  .ToListAsync();
             return newestBooks;
         }
+
+        public async Task<List<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8)
+        {
+            var booksQuery = _context.Books
+                .Include(b => b.Author)
+                .Include(b => b.Category)
+                .Include(b => b.Publisher)
+                .AsQueryable();
+
+            // Nếu có query, lọc theo tên sách
+            if (!string.IsNullOrEmpty(query))
+            {
+                booksQuery = booksQuery.Where(b => b.BookName.Contains(query));
+            }
+            // Nếu có categoryId, lọc theo danh mục
+            if (categoryId.HasValue)
+            {
+                booksQuery = booksQuery.Where(b => b.CategoryId == categoryId.Value);
+            }
+
+            var books = await booksQuery
+                .OrderBy(b => b.BookId)
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .Select(b => new BookDTO
+                {
+                    BookId = b.BookId,
+                    BookName = b.BookName,
+                    AuthorName = b.Author.AuthorName,
+                    CategoryName = b.Category.CategoryName,
+                    PublisherName = b.Publisher.PublisherName,
+                    Images = b.Images
+                })
+                .ToListAsync();
+
+            return books;
+        }
+
     }
 }

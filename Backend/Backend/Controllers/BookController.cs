@@ -1,11 +1,13 @@
 ﻿using Backend.Model;
 using Backend.Service.Books;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Backend.Controllers
 {
+  
     [ApiController]
     [Route("api/[controller]")]
     public class BookController : ControllerBase
@@ -15,6 +17,13 @@ namespace Backend.Controllers
         public BookController(IBookService bookService)
         {
             _bookService = bookService;
+        }
+
+        [HttpGet("search")]
+        public async Task<IActionResult> Search([FromQuery] int? categoryId, [FromQuery] string? query, [FromQuery] int page = 1, [FromQuery] int pageSize = 8)
+        {
+            var books = await _bookService.GetBookByPages(categoryId, query, page, pageSize);
+            return Ok(books);
         }
 
         // GET: api/Book
