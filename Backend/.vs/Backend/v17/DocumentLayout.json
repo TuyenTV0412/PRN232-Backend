@@ -1,129 +1,133 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\",
+  "WorkspaceRootPath": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\service\\books\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\service\\books\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\service\\books\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\repository\\books\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\books\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\repository\\books\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\books\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\service\\books\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\service\\books\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\service\\books\\ibookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\repository\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\repository\\books\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\books\\ibookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\repository\\books\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\books\\bookrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\dto\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\bookdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\model\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\repository\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\model\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\model\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\model\\publisher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\model\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\model\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\service\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\service\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\service\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\service\\authservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\service\\authservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\service\\authservice\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\repository\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\repository\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\repository\\categorys\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\repository\\categorys\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\categorys\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\dto\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\service\\authors\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\service\\authors\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\service\\authors\\authorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\service\\authors\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\service\\authors\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\service\\authors\\iauthorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\repository\\authors\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\repository\\authors\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\authors\\iauthorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\repository\\authors\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\repository\\authors\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\authors\\authorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\service\\categorys\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\service\\categorys\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\service\\categorys\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\repository\\categorys\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\repository\\categorys\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\repository\\categorys\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\service\\categorys\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\service\\categorys\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\service\\categorys\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\backend.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\prn232_final\\backend\\backend\\backend\\model\\prn232context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|d:\\code\\final_prn232\\prn232-backend\\backend\\backend\\model\\prn232context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118E0795-2575-4E40-8A2F-EF221A13052C}|Backend\\Backend.csproj|solutionrelative:backend\\model\\prn232context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -134,78 +138,93 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\DTO\\PagedResult.cs",
+              "RelativeDocumentMoniker": "Backend\\DTO\\PagedResult.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\DTO\\PagedResult.cs",
+              "RelativeToolTip": "Backend\\DTO\\PagedResult.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T00:42:02.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "BookRepository.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Books\\BookRepository.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Books\\BookRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\Books\\BookRepository.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Books\\BookRepository.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Books\\BookRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\Books\\BookRepository.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAIwHEAAAAAAAAA",
+              "ViewState": "AQIAAEAAAAAAAAAAAADwv1QAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T03:35:28.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 1,
               "Title": "IBookService.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Books\\IBookService.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Books\\IBookService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\Books\\IBookService.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Books\\IBookService.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Books\\IBookService.cs",
               "RelativeToolTip": "Backend\\Service\\Books\\IBookService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABYAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:37:08.523Z"
+              "WhenOpened": "2025-05-27T03:37:08.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "BookDTO.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\DTO\\BookDTO.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\DTO\\BookDTO.cs",
               "RelativeDocumentMoniker": "Backend\\DTO\\BookDTO.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\DTO\\BookDTO.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\DTO\\BookDTO.cs",
               "RelativeToolTip": "Backend\\DTO\\BookDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-07T10:54:56.924Z"
+              "WhenOpened": "2025-06-07T10:54:56.924Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IBookRepository.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Books\\IBookRepository.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Books\\IBookRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\Books\\IBookRepository.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Books\\IBookRepository.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Books\\IBookRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\Books\\IBookRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T03:34:33.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BookService.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Books\\BookService.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Books\\BookService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\Books\\BookService.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Books\\BookService.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Books\\BookService.cs",
               "RelativeToolTip": "Backend\\Service\\Books\\BookService.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAswD0AAAAJAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAA/wEMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T03:37:20.397Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Users\\UserRepository.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Users\\UserRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\Users\\UserRepository.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Users\\UserRepository.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Users\\UserRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\Users\\UserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -213,24 +232,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Category.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Category.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Category.cs",
               "RelativeDocumentMoniker": "Backend\\Model\\Category.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Category.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Category.cs",
               "RelativeToolTip": "Backend\\Model\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T05:43:59.208Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-27T05:43:59.208Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Controllers\\BookController.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\BookController.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Controllers\\BookController.cs",
               "RelativeToolTip": "Backend\\Controllers\\BookController.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +257,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Program.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Program.cs",
               "RelativeDocumentMoniker": "Backend\\Program.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Program.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Program.cs",
               "RelativeToolTip": "Backend\\Program.cs",
               "ViewState": "AQIAABgAAAAAAAAAAAAAACgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -251,11 +269,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Publisher.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Publisher.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Publisher.cs",
               "RelativeDocumentMoniker": "Backend\\Model\\Publisher.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Publisher.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Publisher.cs",
               "RelativeToolTip": "Backend\\Model\\Publisher.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -263,11 +281,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Book.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Book.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Book.cs",
               "RelativeDocumentMoniker": "Backend\\Model\\Book.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Book.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Book.cs",
               "RelativeToolTip": "Backend\\Model\\Book.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -275,11 +293,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\appsettings.json",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\appsettings.json",
               "RelativeDocumentMoniker": "Backend\\appsettings.json",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\appsettings.json",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\appsettings.json",
               "RelativeToolTip": "Backend\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -287,11 +305,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Users\\IUserRepository.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Users\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\Users\\IUserRepository.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Users\\IUserRepository.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Users\\IUserRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\Users\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -299,11 +317,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IAuthService.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\AuthService\\IAuthService.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\AuthService\\IAuthService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\AuthService\\IAuthService.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\AuthService\\IAuthService.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\AuthService\\IAuthService.cs",
               "RelativeToolTip": "Backend\\Service\\AuthService\\IAuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -311,11 +329,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Author.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Author.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Author.cs",
               "RelativeDocumentMoniker": "Backend\\Model\\Author.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Author.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Author.cs",
               "RelativeToolTip": "Backend\\Model\\Author.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -323,11 +341,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\AuthService\\AuthService.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\AuthService\\AuthService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\AuthService\\AuthService.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\AuthService\\AuthService.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\AuthService\\AuthService.cs",
               "RelativeToolTip": "Backend\\Service\\AuthService\\AuthService.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAuwCYAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -335,11 +353,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "User.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\User.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\User.cs",
               "RelativeDocumentMoniker": "Backend\\Model\\User.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\User.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\User.cs",
               "RelativeToolTip": "Backend\\Model\\User.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -347,11 +365,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\AuthController.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Controllers\\AuthController.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Controllers\\AuthController.cs",
               "RelativeToolTip": "Backend\\Controllers\\AuthController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -359,11 +377,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\DTO\\LoginModel.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\DTO\\LoginModel.cs",
               "RelativeDocumentMoniker": "Backend\\DTO\\LoginModel.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\DTO\\LoginModel.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\DTO\\LoginModel.cs",
               "RelativeToolTip": "Backend\\DTO\\LoginModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -371,11 +389,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IAuthorService.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Authors\\IAuthorService.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Authors\\IAuthorService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\Authors\\IAuthorService.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Authors\\IAuthorService.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Authors\\IAuthorService.cs",
               "RelativeToolTip": "Backend\\Service\\Authors\\IAuthorService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -383,11 +401,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "IAuthorRepository.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Authors\\IAuthorRepository.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Authors\\IAuthorRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\Authors\\IAuthorRepository.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Authors\\IAuthorRepository.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Authors\\IAuthorRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\Authors\\IAuthorRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAuwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -395,11 +413,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Categorys\\ICategoryRepository.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Categorys\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\Categorys\\ICategoryRepository.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Categorys\\ICategoryRepository.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Categorys\\ICategoryRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\Categorys\\ICategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -407,11 +425,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "AuthorService.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Authors\\AuthorService.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Authors\\AuthorService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\Authors\\AuthorService.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Authors\\AuthorService.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Authors\\AuthorService.cs",
               "RelativeToolTip": "Backend\\Service\\Authors\\AuthorService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -419,11 +437,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "AuthorController.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Controllers\\AuthorController.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Controllers\\AuthorController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\AuthorController.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Controllers\\AuthorController.cs",
               "RelativeToolTip": "Backend\\Controllers\\AuthorController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -431,11 +449,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "AuthorRepository.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Authors\\AuthorRepository.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Authors\\AuthorRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\Authors\\AuthorRepository.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Authors\\AuthorRepository.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Authors\\AuthorRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\Authors\\AuthorRepository.cs",
               "ViewState": "AQIAAAIAAAAAAAAAAAAowBoAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -443,11 +461,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Backend\\Controllers\\CategoryController.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Controllers\\CategoryController.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "Backend\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -455,11 +473,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Categorys\\CategoryRepository.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Categorys\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Backend\\Repository\\Categorys\\CategoryRepository.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Repository\\Categorys\\CategoryRepository.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Repository\\Categorys\\CategoryRepository.cs",
               "RelativeToolTip": "Backend\\Repository\\Categorys\\CategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -467,11 +485,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Categorys\\CategoryService.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Categorys\\CategoryService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\Categorys\\CategoryService.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Categorys\\CategoryService.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Categorys\\CategoryService.cs",
               "RelativeToolTip": "Backend\\Service\\Categorys\\CategoryService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -479,11 +497,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ICategoryService.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Categorys\\ICategoryService.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Categorys\\ICategoryService.cs",
               "RelativeDocumentMoniker": "Backend\\Service\\Categorys\\ICategoryService.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Service\\Categorys\\ICategoryService.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Service\\Categorys\\ICategoryService.cs",
               "RelativeToolTip": "Backend\\Service\\Categorys\\ICategoryService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -491,11 +509,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Backend.http",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Backend.http",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Backend.http",
               "RelativeDocumentMoniker": "Backend\\Backend.http",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Backend.http",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Backend.http",
               "RelativeToolTip": "Backend\\Backend.http",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -503,11 +521,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Prn232Context.cs",
-              "DocumentMoniker": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Prn232Context.cs",
+              "DocumentMoniker": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Prn232Context.cs",
               "RelativeDocumentMoniker": "Backend\\Model\\Prn232Context.cs",
-              "ToolTip": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Model\\Prn232Context.cs",
+              "ToolTip": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Model\\Prn232Context.cs",
               "RelativeToolTip": "Backend\\Model\\Prn232Context.cs",
               "ViewState": "AQIAABwAAAAAAAAAAADwvzAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -56,9 +56,12 @@ namespace Backend.Service.Books
             return await _bookRepository.GetTop4BookNew();
         }
 
-        public async Task<List<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8)
+
+
+        public async Task<PagedResult<BookDTO>> GetBookByPages(int? categoryId, string query, int page, int pageSize)
         {
-           return await _bookRepository.GetBookByPages(categoryId, query, page, pageSize);
+            return await _bookRepository.GetBookByPages(categoryId, query, page, pageSize);
         }
+
     }
 }

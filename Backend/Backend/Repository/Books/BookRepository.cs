@@ -78,7 +78,7 @@ namespace Backend.Repository.Books
             return newestBooks;
         }
 
-        public async Task<List<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8)
+        public async Task<PagedResult<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8)
         {
             var booksQuery = _context.Books
                 .Include(b => b.Author)
@@ -86,16 +86,17 @@ namespace Backend.Repository.Books
                 .Include(b => b.Publisher)
                 .AsQueryable();
 
-            // Nếu có query, lọc theo tên sách
             if (!string.IsNullOrEmpty(query))
             {
                 booksQuery = booksQuery.Where(b => b.BookName.Contains(query));
             }
-            // Nếu có categoryId, lọc theo danh mục
             if (categoryId.HasValue)
             {
                 booksQuery = booksQuery.Where(b => b.CategoryId == categoryId.Value);
             }
+
+            var totalItems = await booksQuery.CountAsync(); // Tổng số sách phù hợp
+            var totalPages = (int)Math.Ceiling((double)totalItems / pageSize);
 
             var books = await booksQuery
                 .OrderBy(b => b.BookId)
@@ -105,15 +106,25 @@ namespace Backend.Repository.Books
                 {
                     BookId = b.BookId,
                     BookName = b.BookName,
+                    Images = b.Images,
+                    AuthorId = b.AuthorId,
+                    PublisherId = b.PublisherId,
+                    CategoryId = b.CategoryId,
                     AuthorName = b.Author.AuthorName,
                     CategoryName = b.Category.CategoryName,
-                    PublisherName = b.Publisher.PublisherName,
-                    Images = b.Images
+                    PublisherName = b.Publisher.PublisherName
                 })
                 .ToListAsync();
 
-            return books;
+            return new PagedResult<BookDTO>
+            {
+                Items = books,
+                TotalPages = totalPages,
+                CurrentPage = page,
+                TotalItems = totalItems
+            };
         }
+
 
     }
 }

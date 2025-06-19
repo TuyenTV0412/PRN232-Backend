@@ -9,7 +9,7 @@ namespace Backend.Service.Books
     {
         Task<List<Book>> GetAllBook();
 
-        Task<List<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8 );
+        Task<PagedResult<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8 );
         Task<Book> GetBookById(int bookId);
         Task<List<Book>> GetBookByCategory(int categoryId);
         Task<List<Book>> GetBookByAuthor(int authorId);

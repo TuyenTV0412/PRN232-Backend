@@ -4458,11 +4458,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Backend.csproj",
+      "projectUniqueName": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Backend.csproj",
       "projectName": "Backend",
-      "projectPath": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\Backend.csproj",
+      "projectPath": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\Backend.csproj",
       "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
-      "outputPath": "D:\\CODE\\PRN232_Final\\Backend\\Backend\\Backend\\obj\\",
+      "outputPath": "D:\\CODE\\Final_PRN232\\PRN232-Backend\\Backend\\Backend\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
