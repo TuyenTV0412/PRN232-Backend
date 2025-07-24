@@ -23,13 +23,13 @@ public partial class Book
 
     public int? Quantity { get; set; }
 
-    public virtual Author Author { get; set; } = null!;
+    public virtual Author? Author { get; set; } = null!;
 
-    public virtual ICollection<BorrowDetail> BorrowDetails { get; set; } = new List<BorrowDetail>();
+    public virtual ICollection<BorrowDetail>? BorrowDetails { get; set; } = new List<BorrowDetail>();
 
     public virtual Category? Category { get; set; } = null!;
 
     public virtual Publisher? Publisher { get; set; } = null!;
 
-    public virtual ICollection<Punish> Punishes { get; set; } = new List<Punish>();
+    public virtual ICollection<Punish>? Punishes { get; set; } = new List<Punish>();
 }

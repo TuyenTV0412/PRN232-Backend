@@ -8,17 +8,24 @@
 
         public string? Images { get; set; }
 
-        public int AuthorId { get; set; }
+        public string? Description { get; set; }
 
-        public int PublisherId { get; set; }
 
-        public int CategoryId { get; set; }
+        public int PublishingYear { get; set; }
 
-        public string CategoryName { get; set; } = null!;
+        public int? AuthorId { get; set; }
 
-        public string AuthorName { get; set; } = null!;
+        public int? PublisherId { get; set; }
 
-        public string PublisherName { get; set; } = null!;
+        public int? CategoryId { get; set; }
+
+        public string? CategoryName { get; set; } = null!;
+
+        public string? AuthorName { get; set; } = null!;
+
+        public string? PublisherName { get; set; } = null!;
+
+        public int? Quantity { get; set; }
 
     }
 }

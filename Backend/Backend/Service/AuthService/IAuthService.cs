@@ -1,7 +1,9 @@
-﻿namespace Backend.Service.AuthService
+﻿using Backend.DTO;
+
+namespace Backend.Service.AuthService
 {
     public interface IAuthService
     {
-        Task<string> AuthenticateAsync(string username, string password);
+        Task<AuthResponseDto> AuthenticateAsync(string username, string password);
     }
 }

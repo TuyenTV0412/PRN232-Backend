@@ -17,11 +17,14 @@ namespace Backend.Controllers
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginModel model)
         {
-            var token = await _authService.AuthenticateAsync(model.Username, model.Password);
-            if (token == null)
+            var result = await _authService.AuthenticateAsync(model.Username, model.Password);
+            if (result == null)
                 return Unauthorized(new { message = "Sai tài khoản hoặc mật khẩu" });
 
-            return Ok(new { token });
+            return Ok(result);
         }
+
+
+
     }
 }

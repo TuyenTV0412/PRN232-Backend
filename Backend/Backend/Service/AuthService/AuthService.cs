@@ -1,4 +1,4 @@
-﻿
+﻿using Backend.DTO;
 using Backend.Repository.Users;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -9,7 +9,6 @@ namespace Backend.Service.AuthService
 {
     public class AuthService : IAuthService
     {
-
         private readonly IUserRepository _userRepository;
         private readonly IConfiguration _config;
 
@@ -19,16 +18,17 @@ namespace Backend.Service.AuthService
             _config = config;
         }
 
-        public async Task<string> AuthenticateAsync(string username, string password)
+        public async Task<AuthResponseDto> AuthenticateAsync(string username, string password)
         {
             var user = await _userRepository.GetUserAsync(username, password);
             if (user == null) return null;
 
-            // Sinh JWT
-            var claims = new[]
-            {
+            var claims = new List<Claim>
+        {
             new Claim(ClaimTypes.Name, user.Username),
-            new Claim(ClaimTypes.Role, user.Role.RoleName)
+            new Claim(ClaimTypes.Role, user.Role.RoleName),
+            new Claim("UserId", user.PersonId.ToString()),
+            new Claim("RoleId", user.Role.RoleId.ToString())
         };
 
             var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_config["Jwt:Key"]));
@@ -41,7 +41,16 @@ namespace Backend.Service.AuthService
                 expires: DateTime.Now.AddMinutes(120),
                 signingCredentials: creds);
 
-            return new JwtSecurityTokenHandler().WriteToken(token);
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
+
+            return new AuthResponseDto
+            {
+                Token = tokenString,
+                UserId = user.PersonId,
+                Username = user.Username,
+                RoleId = user.Role.RoleId,
+                RoleName = user.Role.RoleName
+            };
         }
     }
 }

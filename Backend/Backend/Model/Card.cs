@@ -13,5 +13,5 @@ public partial class Card
 
     public DateOnly ValidThru { get; set; }
 
-    public virtual User Person { get; set; } = null!;
+    public virtual User? Person { get; set; } = null!;
 }

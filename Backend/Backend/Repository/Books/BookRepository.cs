@@ -23,10 +23,33 @@ namespace Backend.Repository.Books
             return await _context.Books.ToListAsync();
         }
 
-        public async Task<Book> GetBookById(int bookId)
+        public async Task<BookDTO?> GetBookById(int bookId)
         {
-            return await _context.Books.FindAsync(bookId);
+            var book = await _context.Books
+                .Include(b => b.Author)
+                .Include(b => b.Category)
+                .Include(b => b.Publisher)
+                .Where(b => b.BookId == bookId)
+                .Select(b => new BookDTO
+                {
+                    BookId = b.BookId,
+                    BookName = b.BookName,
+                    Images = b.Images,
+                    Description = b.Description,
+                    AuthorId = b.AuthorId,
+                    PublisherId = b.PublisherId,
+                    CategoryId = b.CategoryId,
+                    PublishingYear = b.PublishingYear,
+                    AuthorName = b.Author != null ? b.Author.AuthorName : "Không rõ",
+                    CategoryName = b.Category != null ? b.Category.CategoryName : "Không rõ",
+                    PublisherName = b.Publisher != null ? b.Publisher.PublisherName : "Không rõ",
+                    Quantity = b.Quantity
+                })
+                .FirstOrDefaultAsync();
+
+            return book;
         }
+
 
         public async Task<List<Book>> GetBookByCategory(int categoryId)
         {
@@ -49,9 +72,19 @@ namespace Backend.Repository.Books
             return book;
         }
 
-        public async Task<Book> UpdateBook(Book book)
+        public async Task<Book> UpdateBook(BookUpdateDTO dto)
         {
-            _context.Books.Update(book);
+            var book = await _context.Books.FindAsync(dto.BookId);
+            if (book == null) throw new Exception("Không tìm thấy sách");
+
+            if (dto.BookName != null) book.BookName = dto.BookName;
+            if (dto.Images != null) book.Images = dto.Images;
+            if (dto.Description != null) book.Description = dto.Description;
+            if (dto.AuthorId.HasValue) book.AuthorId = dto.AuthorId.Value;
+            if (dto.PublisherId.HasValue) book.PublisherId = dto.PublisherId.Value;
+            if (dto.CategoryId.HasValue) book.CategoryId = dto.CategoryId.Value;
+            if (dto.Quantity.HasValue) book.Quantity = dto.Quantity.Value;
+
             await _context.SaveChangesAsync();
             return book;
         }
@@ -112,7 +145,10 @@ namespace Backend.Repository.Books
                     CategoryId = b.CategoryId,
                     AuthorName = b.Author.AuthorName,
                     CategoryName = b.Category.CategoryName,
-                    PublisherName = b.Publisher.PublisherName
+                    PublisherName = b.Publisher.PublisherName,
+                    Quantity = b.Quantity,
+                    PublishingYear = b.PublishingYear,
+                    Description = b.Description
                 })
                 .ToListAsync();
 
@@ -125,6 +161,16 @@ namespace Backend.Repository.Books
             };
         }
 
-
+        public async Task<List<Book>> GetTop4BookByCategory(int categoryId)
+        {
+           var books = await _context.Books
+                                                 .Include(b => b.Author)
+                                                 .Include(b => b.Category)
+                                                 .Include(b => b.Publisher)
+                                                 .Where(b => b.CategoryId == categoryId)
+                                                 .Take(4)
+                                                 .ToListAsync();
+            return books;
+        }
     }
 }

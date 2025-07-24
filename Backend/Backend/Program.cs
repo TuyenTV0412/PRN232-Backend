@@ -1,12 +1,17 @@
 ﻿using Backend.Model;
 using Backend.Repository.Authors;
 using Backend.Repository.Books;
+using Backend.Repository.Borrows;
+using Backend.Repository.Cards;
 using Backend.Repository.Categorys;
+using Backend.Repository.Publishers;
 using Backend.Repository.Users;
 using Backend.Service.Authors;
 using Backend.Service.AuthService;
 using Backend.Service.Books;
-using Backend.Service.Categorys;
+using Backend.Service.Borrows;
+using Backend.Service.Publishers;
+using Backend.Service.Users;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
@@ -30,6 +35,22 @@ builder.Services.AddScoped<IAuthorService, AuthorService>();
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
+
+builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<IPublisherRepository, PublisherRepository>();
+builder.Services.AddScoped<IPublisherService, PublisherService>();
+
+builder.Services.AddScoped<ICardRepository, CardRepository>();
+builder.Services.AddScoped<ICardService, CardService>();
+
+
+builder.Services.AddScoped<IBorrowRepository, BorrowRepository>();
+builder.Services.AddScoped<IBorrowService, BorrowService>();
+
+builder.Services.AddSingleton<EmailService>();
+
+builder.Services.AddMemoryCache();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();

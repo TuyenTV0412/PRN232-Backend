@@ -1,9 +1,12 @@
 ﻿using Backend.Model;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace Backend.Service.Categorys
+public interface ICategoryService
 {
-    public interface ICategoryService
-    {
-        Task<List<Category>> GetAllCategory();
-    }
+    Task<List<Category>> GetAllCategory();
+    Task<Category?> GetCategoryById(int id);
+    Task<Category> AddCategory(Category category);
+    Task<Category?> UpdateCategory(Category category);
+    Task<bool> DeleteCategory(int id);
 }

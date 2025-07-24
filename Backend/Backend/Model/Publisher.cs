@@ -17,5 +17,5 @@ public partial class Publisher
 
     public string Phone { get; set; } = null!;
 
-    public virtual ICollection<Book> Books { get; set; } = new List<Book>();
+    public virtual ICollection<Book>? Books { get; set; } = new List<Book>();
 }

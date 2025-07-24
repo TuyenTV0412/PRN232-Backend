@@ -21,7 +21,7 @@ namespace Backend.Service.Books
             return await _bookRepository.GetAllBook();
         }
 
-        public async Task<Book> GetBookById(int bookId)
+        public async Task<BookDTO> GetBookById(int bookId)
         {
             return await _bookRepository.GetBookById(bookId);
         }
@@ -41,7 +41,7 @@ namespace Backend.Service.Books
             return await _bookRepository.AddBook(book);
         }
 
-        public async Task<Book> UpdateBook(Book book)
+        public async Task<Book> UpdateBook(BookUpdateDTO book)
         {
             return await _bookRepository.UpdateBook(book);
         }
@@ -63,5 +63,9 @@ namespace Backend.Service.Books
             return await _bookRepository.GetBookByPages(categoryId, query, page, pageSize);
         }
 
+        public async Task<List<Book>> GetTop4BookByCategory(int categoryId)
+        {
+            return await _bookRepository.GetTop4BookByCategory(categoryId);
+        }
     }
 }

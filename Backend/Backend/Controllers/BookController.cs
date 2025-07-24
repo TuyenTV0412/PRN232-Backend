@@ -1,4 +1,5 @@
-﻿using Backend.Model;
+﻿using Backend.DTO;
+using Backend.Model;
 using Backend.Service.Books;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -36,7 +37,7 @@ namespace Backend.Controllers
 
         // GET: api/Book/{id}
         [HttpGet("{id}")]
-        public async Task<ActionResult<Book>> GetBookById(int id)
+        public async Task<ActionResult<BookDTO>> GetBookById(int id)
         {
             var book = await _bookService.GetBookById(id);
             if (book == null)
@@ -45,7 +46,7 @@ namespace Backend.Controllers
         }
         //top4 book new
         [HttpGet("Top4Book")]
-        public async Task<ActionResult<List<Book>>> GetTop4BookNew()
+        public async Task<ActionResult<List<BookDTO>>> GetTop4BookNew()
         {
             var books = await _bookService.GetTop4BookNew();
             return Ok(books);
@@ -55,6 +56,13 @@ namespace Backend.Controllers
         public async Task<ActionResult<List<Book>>> GetBooksByCategory(int categoryId)
         {
             var books = await _bookService.GetBookByCategory(categoryId);
+            return Ok(books);
+        }
+
+        [HttpGet("Top4BookByCategory")]
+        public async Task<ActionResult<List<Book>>> GetTop4BookByCategory(int categoryId)
+        {
+            var books = await _bookService.GetTop4BookByCategory(categoryId);
             return Ok(books);
         }
 
@@ -68,7 +76,7 @@ namespace Backend.Controllers
 
         // POST: api/Book
         [HttpPost]
-        public async Task<ActionResult<Book>> AddBook([FromBody] Book book)
+        public async Task<ActionResult<BookDTO>> AddBook([FromBody] Book book)
         {
             var createdBook = await _bookService.AddBook(book);
             // createdBook.Id đã có giá trị tự tăng
@@ -77,7 +85,7 @@ namespace Backend.Controllers
 
         // PUT: api/Book/{id}
         [HttpPut("{id}")]
-        public async Task<ActionResult<Book>> UpdateBook(int id, [FromBody] Book book)
+        public async Task<ActionResult<BookDTO>> UpdateBook(int id, [FromBody] BookUpdateDTO book)
         {
             if (id != book.BookId)
                 return BadRequest();

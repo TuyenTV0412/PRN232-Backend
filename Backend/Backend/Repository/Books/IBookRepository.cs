@@ -10,14 +10,16 @@ namespace Backend.Repository.Books
         Task<List<Book>> GetAllBook();
 
         Task<PagedResult<BookDTO>> GetBookByPages(int? categoryId, string query, int page = 1, int pageSize = 8);
-        Task<Book> GetBookById(int bookId);
+        Task<BookDTO> GetBookById(int bookId);
         Task<List<Book>> GetBookByCategory(int categoryId);
 
         Task<List<Book>> GetTop4BookNew();
         Task<List<Book>> GetBookByAuthor(int authorId);
 
         Task<Book> AddBook(Book book);
-        Task<Book> UpdateBook(Book book);
+        Task<Book> UpdateBook(BookUpdateDTO book);
         Task<bool> DeleteBook(int bookId);
+
+        Task<List<Book>> GetTop4BookByCategory(int categoryId);
     }
 }
